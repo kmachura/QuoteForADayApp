@@ -4,6 +4,11 @@
 	 -fx-highlight-fill: #FFFFFF; 
 	 -fx-highlight-text-fill: #191970;
 	 -fx-alignment: center;
+     -fx-focus-color: #FFFFFF;
+     -fx-faint-focus-color: #FFFFFF;
+     -fx-text-box-border: #FFFFFF;
+     -fx-shadow-highlight-color: white; 
+     -fx-border-insets: 1, 1 1 1 1;     
 }
 
 .button {
@@ -21,7 +26,35 @@
 .text-area {
 	 -fx-font: 16px "Serif";
 	 -fx-text-fill: #191970;
+     -fx-focus-color: #FFFFFF;
+     -fx-faint-focus-color: #FFFFFF;
+     -fx-text-box-border: #FFFFFF;
+     -fx-shadow-highlight-color: white; 
+     -fx-border-insets: 1, 1 1 1 1;     
 }
+
+.text-area:focused .content {
+    -fx-background-color: #FFFFFF;
+    -fx-control-inner-background: #FFFFFF;
+    -fx-faint-focus-color: #FFFFFF;
+    }
+
+.text-area:selected .content {
+    -fx-background-color: #FFFFFF;
+    -fx-control-inner-background: #FFFFFF;
+    -fx-faint-focus-color: #FFFFFF;
+    }
+
+.image-view {
+	 -fx-faint-focus-color: #FFFFFF;
+     -fx-text-box-border: #FFFFFF;
+     -fx-shadow-highlight-color: white; 
+     -fx-border-insets: 1, 1 1 1 1;    
+     -fx-background-color: #FFFFFF;
+     -fx-control-inner-background: #FFFFFF;
+     -fx-faint-focus-color: #FFFFFF;
+    }
+     
 
 .root{
 	 
