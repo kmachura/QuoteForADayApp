@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="200.0" prefWidth="400.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kama.quoteapp.controller.MainController">
+   <children>
+      <TextField id="title" fx:id="titleText" editable="false" maxWidth="1.7976931348623157E308" text="Zainspiruj się cytatem na nowy dzień..." VBox.vgrow="ALWAYS">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor></TextField>
+      <Button id="button" fx:id="actionButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Losuj cytat" />
+      <HBox>
+         <children>
+            <TextArea id="quote" fx:id="quoteArea" editable="false" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" wrapText="true" HBox.hgrow="ALWAYS">
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor></TextArea>
+            <ImageView id="image" fx:id="imgArea" fitHeight="99.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@flower.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor>
+               <HBox.margin>
+                  <Insets top="25.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,30 @@
+.text-field {
+	 -fx-font: 16px "Serif";
+	 -fx-text-fill: #191970;
+	 -fx-highlight-fill: #FFFFFF; 
+	 -fx-highlight-text-fill: #191970;
+	 -fx-alignment: center;
+}
+
+.button {
+	 -fx-font: 16px "Serif";
+	 -fx-text-fill: #C71585;
+	 -fx-border: 0;
+	 -fx-background-color: #98FB98;
+}
+
+.button:hover, .button:selected {
+	-fx-background-color: #FF69B4;
+	-fx-text-fill: #006400;
+}
+
+.text-area {
+	 -fx-font: 16px "Serif";
+	 -fx-text-fill: #191970;
+}
+
+.root{
+	 
+    -fx-base: #FFFFFF;
+    -fx-background: #FFFFFF;
+}
